@@ -1,18 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-import geopandas as gpd
-import plotly.graph_objects as go
-import squarify
-import plotly.express as px
-from PIL import Image
-from datetime import datetime as dt
-from datetime import date,datetime
-import dateutil.parser
-from streamlit_lottie import st_lottie
-import requests
-import json
+
 
 
 data = pd.read_csv('https://raw.githubusercontent.com/jeaggo/tc3068/master/Superstore.csv')
